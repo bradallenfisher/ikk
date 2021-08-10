@@ -14,7 +14,7 @@ return translations[index];};Drupal.encodePath=function(item){return window.enco
 return new Proxy(target,{get:function get(target,key){for(var _len=arguments.length,rest=Array(_len>2?_len-2:0),_key=2;_key<_len;_key++){rest[_key-2]=arguments[_key];}
 if(key===deprecatedProperty){Drupal.deprecationError({message:message});}
 return Reflect.get.apply(Reflect,[target,key].concat(rest));}});};Drupal.theme=function(func){if(func in Drupal.theme){var _Drupal$theme;for(var _len2=arguments.length,args=Array(_len2>1?_len2-1:0),_key2=1;_key2<_len2;_key2++){args[_key2-1]=arguments[_key2];}
-return(_Drupal$theme=Drupal.theme)[func].apply(_Drupal$theme,args);}};Drupal.theme.placeholder=function(str){return'<em class="placeholder">'+Drupal.checkPlain(str)+'</em>';};})(Drupal,window.drupalSettings,window.drupalTranslations,window.console,window.Proxy,window.Reflect)
+return(_Drupal$theme=Drupal.theme)[func].apply(_Drupal$theme,args);}};Drupal.theme.placeholder=function(str){return'<em class="placeholder">'+Drupal.checkPlain(str)+'</em>';};})(Drupal,window.drupalSettings,window.drupalTranslations,window.console,window.Proxy,window.Reflect);
 /* Source and licensing information for the above line(s) can be found at https://insidekellyskitchen.com/core/misc/drupal.js. */;
 /* Source and licensing information for the line(s) below can be found at https://insidekellyskitchen.com/core/misc/drupal.init.js. */
 if(window.jQuery){jQuery.noConflict();}
